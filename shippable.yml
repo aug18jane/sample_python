@@ -10,7 +10,7 @@ env:
   matrix:
     - M1=ONE
 branches:
- except:
+ only:
    - master
 
 build:
