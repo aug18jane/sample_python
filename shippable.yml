@@ -12,6 +12,7 @@ env:
     - M1=ONE
 
 build:
+  ci:
     - ps -eax
     - ls -al
     - pip install -r requirements.txt
